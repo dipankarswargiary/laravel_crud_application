@@ -37,7 +37,7 @@ class EmployeeController extends Controller
             'salary' => request('salary')
         ]);
 
-        return redirect('/')->with('success', 'Employee created successfully.');
+        return redirect('/create-employee')->with('success', 'Employee created successfully.');
     }
 
     public function show(Employee $employee) {
