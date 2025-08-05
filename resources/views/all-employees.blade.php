@@ -1,4 +1,4 @@
-<x-layout title="All Employees">
+<x-layout.app-layout title="All Employees">
     <div class="max-w-6xl mx-auto">
 
         @if (session('success'))
@@ -48,4 +48,4 @@
             {{ $employees->links() }}
         </div>
     </div>
-</x-layout>
+</x-layout.app-layout>

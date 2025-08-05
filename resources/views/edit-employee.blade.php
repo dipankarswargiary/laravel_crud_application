@@ -1,4 +1,4 @@
-<x-layout title='Edit employee details'>
+<x-layout.app-layout title='Edit employee details'>
     <div class="container max-w-6xl mx-auto py-10">
         <form action="/employee/{{ $employee['id'] }}" method="post" class="max-w-xl mx-auto rounded-lg shadow-lg p-10 flex flex-col gap-4">
             @csrf
@@ -77,4 +77,4 @@
             </div>
         </form>
     </div>
-</x-layout>
+</x-layout.app-layout>

@@ -17,6 +17,10 @@ class EmployeeController extends Controller
     }
 
     public function create() {
+        return view('create-employee');
+    }
+
+    public function store() {
         request()->validate([
             'name' => 'required|min:3|max:255',
             'email' => 'required|email|unique:employees,email|max:255',

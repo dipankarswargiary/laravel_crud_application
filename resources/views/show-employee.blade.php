@@ -1,4 +1,4 @@
-<x-layout title="View Employee">
+<x-layout.app-layout title="View Employee">
     <div class="container max-w-6xl text-2xl leading-5 mx-auto py-15 flex flex-col gap-4">
 
         @if (session('success'))
@@ -61,4 +61,4 @@
             </div>
         </div>
     </div>
-</x-layout>
+</x-layout.app-layout>
